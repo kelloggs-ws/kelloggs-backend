@@ -12,7 +12,8 @@ app = FastAPI()
 # 1️⃣ CORS configuration
 # -------------------------------
 origins = [
-    "http://localhost:5173",  # React + Vite frontend
+    "http://localhost:5173",
+    "https://dashboard-zzun.onrender.com/" # React + Vite frontend
 ]
 
 app.add_middleware(
